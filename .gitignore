@@ -1,0 +1,98 @@
+# ==========================
+# Python & Django .gitignore
+# ==========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+DjangoEnvBlog/
+# Environment variables
+*.env
+.env.*
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static_cdn/
+media_cdn/
+
+# Migrations (optional, keep if you version them)
+# ** Uncomment the next line if you auto-generate migrations and don’t want them tracked **
+# */migrations/
+
+# Django collectstatic output
+static/
+static_root/
+
+# Local settings
+local_settings.py
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VSCode / PyCharm / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac / Windows files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Docker / Compose (if applicable)
+docker-compose.override.yml
